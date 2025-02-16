@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "editorconfig-checker": "^6.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "prettier": "^3.5.1",
     "syncpack": "^13.0.2"
   },
@@ -12,6 +14,9 @@
   "scripts": {
     "editorconfig-checker": "editorconfig-checker",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky",
+    "syncpack-fix-mismatches": "syncpack fix-mismatches",
+    "syncpack-format": "syncpack format"
   }
 }
