@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "editorconfig-checker": "^6.0.1",
-    "prettier": "^3.5.1"
+    "prettier": "^3.5.1",
+    "syncpack": "^13.0.2"
   },
   "engines": {
     "node": ">=22.14.0",
